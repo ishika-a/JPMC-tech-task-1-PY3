@@ -19,7 +19,7 @@ class ClientTest(unittest.TestCase):
   def test_getRatio_calculate0(self):
     z=getRatio(125,0)
     self.assertIsNone(z)
-    y=getRatio(0,122)
+    y=getRatio(0,120)
     self.assertEqual(y,0)
     
 
